@@ -8,14 +8,17 @@
 #include <vector>
 
 #include "DataFormatUtil.h"
+#include "CSVFileUtil.h"
 
 using namespace std;
 
 class OriginEntity
 {
-
     string EntityName;
+
     public:
+
+        vector<string> mVector;
 
         OriginEntity();
 
@@ -23,11 +26,13 @@ class OriginEntity
 
         void setEntityName(string entityName);
 
-        virtual void initFromVector(vector<string> mVector) = 0;
+        virtual void initFromVector();
 
-        virtual void readNextStream(istream& istr) = 0;
+        void readNextStream(istream& istr);
 
-        virtual void readFromString(string str) = 0;
+        void readFromString(string str);
+
+        void readFromCSVIterator(CSVIterator csvItr);
 
     protected:
     private:

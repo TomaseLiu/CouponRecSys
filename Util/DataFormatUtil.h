@@ -1,5 +1,6 @@
 #ifndef DATAFORMATUTIL_H_INCLUDED
 #define DATAFORMATUTIL_H_INCLUDED
+
 #include <string>
 #include <sstream>
 #include <vector>
@@ -15,7 +16,7 @@ string inline toString(T a){
 }
 
 template <class T>
-void Append2String(string& ret, T a){
+void inline Append2String(string& ret, T a){
     stringstream SS;
     SS << ret << (ret.size() == 0 ? "" : ",");
     SS << a;
@@ -59,6 +60,16 @@ vector<string> inline split(istream &istr, string spltSym){
     string tmpStr;
     istr >> tmpStr;
     return split(tmpStr, spltSym);
+}
+
+string inline JoinVectorItems(vector<string> oriVec, string spltSym){
+    string ret;
+    if(oriVec.size() != 0)
+        ret = oriVec[0];
+    for(size_t i = 1; i < oriVec.size(); i++){
+        ret += spltSym + oriVec[i];
+    }
+    return ret;
 }
 
 #endif // DATAFORMATUTIL_H_INCLUDED

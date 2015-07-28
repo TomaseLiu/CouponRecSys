@@ -23,11 +23,31 @@ class OriginUser : public OriginEntity
 
         virtual ~OriginUser();
 
-        void initFromVector(vector<string> mVector);
+        void initFromVector();
 
-        void readNextStream(istream& istr);
+        string getUserID();
 
-        void readFromString(string str);
+        void setUserID(string userId);
+
+        string getPrefName();
+
+        void setPrefName(string prefName);
+
+        string getSexFemale();
+
+        void setSexFemale(string sexFemale);
+
+        int getAge();
+
+        void setAge(int age);
+
+        string getRegDate();
+
+        void setRegDate(string regDate);
+
+        string getWdwDate();
+
+        void setWdwDate(string wdwDate);
 
     protected:
     private:
