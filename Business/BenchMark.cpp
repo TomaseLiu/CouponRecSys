@@ -12,15 +12,19 @@ BenchMark::~BenchMark()
 
 void BenchMark::init(string user_list_file, string coupon_area_test_file){
     ifstream ifile_user(user_list_file.c_str());
-    for(CSVIterator loop(ifile_user); loop != CSVIterator(); ++loop){
+    CSVIterator loop_user(ifile_user);
+    ++loop_user;
+    for(; loop_user != CSVIterator(); ++loop_user){
         OriginUser *p_user = new OriginUser();
-        p_user->readFromCSVIterator(loop);
+        p_user->readFromCSVIterator(loop_user);
         this->m_Users.push_back(p_user);
     }
     ifstream ifile_coupon_area(coupon_area_test_file.c_str());
-    for(CSVIterator loop(ifile_coupon_area); loop != CSVIterator(); ++loop){
+    CSVIterator loop_coupon_area(ifile_coupon_area);
+    ++loop_coupon_area;
+    for(; loop_coupon_area != CSVIterator(); ++loop_coupon_area){
         OriginCouponArea *p_couponArea = new OriginCouponArea();
-        p_couponArea->readFromCSVIterator(loop);
+        p_couponArea->readFromCSVIterator(loop_coupon_area);
         //this->m_CouponArea.push_back(p_couponArea);
         string smallArea = p_couponArea->GetSmallAreaName();
         string prefArea = p_couponArea->GetPrefName();
@@ -52,6 +56,7 @@ vector<UserCoupons*> BenchMark::getRecResult(){
         userCoupon->SetUserID(userID);
         userCoupon->SetCouponList(couponList);
         resRetVec.push_back(userCoupon);
+        //cout << userPrefName << ",   " << couponList.size() << endl;
     }
     return resRetVec;
 }

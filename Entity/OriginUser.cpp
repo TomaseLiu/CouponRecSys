@@ -15,8 +15,6 @@ void OriginUser::initFromVector(){
         this->WdwDate = convert<string>(this->mVector[3]);
         this->PrefName = convert<string>(this->mVector[4]);
         this->UserID = convert<string>(this->mVector[5]);
-
-        //cout << UserID << " " << PrefName << " " << RegDate << " " << Age << endl;
     }
 }
 
