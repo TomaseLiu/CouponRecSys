@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Business/BenchMark.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="481" topLine="1" />
+	</File>
+	<File name="Business/BenchMark.h" open="1" top="0" tabpos="1">
+		<Cursor position="245" topLine="1" />
+	</File>
+	<File name="Entity/OriginCouponArea.cpp" open="1" top="0" tabpos="13">
+		<Cursor position="298" topLine="0" />
+	</File>
+	<File name="Entity/OriginCouponArea.h" open="1" top="0" tabpos="14">
+		<Cursor position="172" topLine="0" />
+	</File>
+	<File name="Entity/OriginEntity.cpp" open="1" top="1" tabpos="11">
+		<Cursor position="352" topLine="0" />
+	</File>
+	<File name="Entity/OriginEntity.h" open="1" top="0" tabpos="12">
+		<Cursor position="493" topLine="1" />
+	</File>
+	<File name="Entity/OriginUser.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="247" topLine="0" />
+	</File>
+	<File name="Entity/OriginUser.h" open="1" top="0" tabpos="4">
+		<Cursor position="268" topLine="1" />
+	</File>
+	<File name="Entity/UserCoupons.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="350" topLine="0" />
+	</File>
+	<File name="Entity/UserCoupons.h" open="1" top="0" tabpos="8">
+		<Cursor position="472" topLine="0" />
+	</File>
+	<File name="Util/CSVFileUtil.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="614" topLine="0" />
+	</File>
+	<File name="Util/CSVFileUtil.h" open="1" top="0" tabpos="10">
+		<Cursor position="1277" topLine="19" />
+	</File>
+	<File name="Util/DataFormatUtil.h" open="0" top="0" tabpos="0">
+		<Cursor position="1454" topLine="35" />
+	</File>
+	<File name="Util/MyFileWriter.h" open="1" top="0" tabpos="7">
+		<Cursor position="129" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="655" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

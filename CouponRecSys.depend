@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1438133211 source:/home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Entity/OriginEntity.cpp
+	"OriginEntity.h"
+
+1438133211 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Entity/OriginEntity.h
+	<string>
+	<fstream>
+	<iostream>
+	<sstream>
+	<vector>
+	"DataFormatUtil.h"
+	"CSVFileUtil.h"
+
+1438133497 source:/home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Entity/OriginUser.cpp
+	"OriginUser.h"
+
+1438133211 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Entity/OriginUser.h
+	"OriginEntity.h"
+
+1438133211 source:/home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/main.cpp
+	<iostream>
+	"CSVFileUtil.h"
+	"DataFormatUtil.h"
+	"OriginUser.h"
+	"BenchMark.h"
+	"UserCoupons.h"
+	"MyFileWriter.h"
+
+1438133211 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/CSVFileUtil.h
+	<fstream>
+	<iostream>
+	<iterator>
+	<sstream>
+	<vector>
+	<string>
+	"DataFormatUtil.h"
+
+1438133211 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/DataFormatUtil.h
+	<string>
+	<sstream>
+	<vector>
+
+1438133211 source:/home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Business/BenchMark.cpp
+	"BenchMark.h"
+
+1438133211 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Business/BenchMark.h
+	"OriginUser.h"
+	"OriginCouponArea.h"
+	"UserCoupons.h"
+	"CSVFileUtil.h"
+	"DataFormatUtil.h"
+	<vector>
+	<fstream>
+	<string>
+	<map>
+
+1438133211 source:/home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/CSVFileUtil.cpp
+	"CSVFileUtil.h"
+
+1438133211 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Entity/OriginCouponArea.h
+	"OriginEntity.h"
+
+1438133695 source:/home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Entity/OriginCouponArea.cpp
+	"OriginCouponArea.h"
+
+1438133211 source:/home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Entity/UserCoupons.cpp
+	"UserCoupons.h"
+
+1438133211 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Entity/UserCoupons.h
+	<vector>
+	<string>
+	"DataFormatUtil.h"
+
+1438133211 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/MyFileWriter.h
+	<fstream>
+	<string>
+	"UserCoupons.h"
+
