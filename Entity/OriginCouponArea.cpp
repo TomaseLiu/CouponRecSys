@@ -10,10 +10,11 @@ OriginCouponArea::~OriginCouponArea()
     //dtor
 }
 void OriginCouponArea::initFromVector(){
-    if(this->mVector.size() == 6){
+    if(this->mVector.size() == 3){
         this->m_SmallAreaName = convert<string>(this->mVector[0]);
-        this->m_PrefName = convert<string>(this->mVector[0]);
-        this->m_CouponID = convert<string>(this->mVector[0]);
+        this->m_PrefName = convert<string>(this->mVector[1]);
+        this->m_CouponID = convert<string>(this->mVector[2]);
+        cout << m_PrefName << " " << m_CouponID << endl;
     }
 }
 
