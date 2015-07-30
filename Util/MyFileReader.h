@@ -20,9 +20,8 @@ vector<T*> readOriginEntityFromFile(string filePath){
         t->readFromCSVIterator(loop);
         ret.push_back(t);
     }
+    ifile.close();
     return ret;
 }
-
-
 
 #endif // MYFILEREADER_H_INCLUDED

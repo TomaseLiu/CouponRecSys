@@ -17,6 +17,7 @@ void inline writeRecResultIntoCsv(string filePath, vector<UserCoupons*> userCoup
         string result = userID + "," + coupons;
         ofile << result << endl;
     }
+    ofile.close();
 }
 
 

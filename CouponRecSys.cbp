@@ -39,6 +39,8 @@
 		<Unit filename="Business/BenchMark.h" />
 		<Unit filename="Entity/OriginCouponArea.cpp" />
 		<Unit filename="Entity/OriginCouponArea.h" />
+		<Unit filename="Entity/OriginCouponVisit.cpp" />
+		<Unit filename="Entity/OriginCouponVisit.h" />
 		<Unit filename="Entity/OriginEntity.cpp" />
 		<Unit filename="Entity/OriginEntity.h" />
 		<Unit filename="Entity/OriginUser.cpp" />
@@ -48,6 +50,7 @@
 		<Unit filename="Util/CSVFileUtil.cpp" />
 		<Unit filename="Util/CSVFileUtil.h" />
 		<Unit filename="Util/DataFormatUtil.h" />
+		<Unit filename="Util/MyFileReader.h" />
 		<Unit filename="Util/MyFileWriter.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
