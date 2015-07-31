@@ -17,7 +17,7 @@
 1438133211 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Entity/OriginUser.h
 	"OriginEntity.h"
 
-1438224951 source:/home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/main.cpp
+1438320608 source:/home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/main.cpp
 	<iostream>
 	"CSVFileUtil.h"
 	"DataFormatUtil.h"
@@ -29,6 +29,7 @@
 	"MyFileWriter.h"
 	"MyFileReader.h"
 	"MyHashMapDicUtil.h"
+	"TimeUtil.h"
 
 1438133211 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/CSVFileUtil.h
 	<fstream>
@@ -75,7 +76,7 @@
 	<string>
 	"DataFormatUtil.h"
 
-1438133211 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/MyFileWriter.h
+1438225235 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/MyFileWriter.h
 	<fstream>
 	<string>
 	"UserCoupons.h"
@@ -86,20 +87,25 @@
 1438168630 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Entity/OriginCouponVisit.h
 	"OriginEntity.h"
 
-1438170722 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/MyFileReader.h
+1438225243 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/MyFileReader.h
 	<fstream>
 	"OriginEntity.h"
 	<vector>
 	<string>
 	"CSVFileUtil.h"
 
-1438224897 source:/home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/MyHashMapDicUtil.cpp
+1438225221 source:/home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/MyHashMapDicUtil.cpp
 	"MyHashMapDicUtil.h"
 
-1438224872 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/MyHashMapDicUtil.h
+1438226822 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/MyHashMapDicUtil.h
 	<fstream>
 	<map>
 	<string>
 	<algorithm>
 	"CSVFileUtil.h"
+
+1438320711 /home/xiangzi777/workspace/C++/Codeblock/kaggle/Coupon/Util/TimeUtil.h
+	<time.h>
+	<string>
+	<stdio.h>
 

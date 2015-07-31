@@ -42,6 +42,6 @@ HashDict initHashDictFromFile(string filePath, int coulumIndex);
 
 HashDict getHashDictFromFile(string filePath);
 
-void writeHashDictIntoFile(string filePath);
+void writeHashDictIntoFile(string filePath, HashDict &hashDict);
 
 #endif // MYHASHMAPDICUTIL_H_INCLUDED

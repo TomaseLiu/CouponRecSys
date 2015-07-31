@@ -52,6 +52,8 @@
 		<Unit filename="Util/DataFormatUtil.h" />
 		<Unit filename="Util/MyFileReader.h" />
 		<Unit filename="Util/MyFileWriter.h" />
+		<Unit filename="Util/MyHashMapDicUtil.cpp" />
+		<Unit filename="Util/MyHashMapDicUtil.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
